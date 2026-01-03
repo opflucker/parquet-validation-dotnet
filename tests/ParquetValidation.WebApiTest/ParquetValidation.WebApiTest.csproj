@@ -13,7 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\ParquetValidation\ParquetValidation.csproj" />
+    <ProjectReference Include="..\..\src\ParquetValidation.csproj" />
   </ItemGroup>
 
 </Project>
