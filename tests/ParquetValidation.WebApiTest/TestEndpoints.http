@@ -1,0 +1,48 @@
+@WebApi_HostAddress = http://localhost:5279
+
+POST {{WebApi_HostAddress}}/parquets-in-adsl/validation
+Accept: application/json
+Content-Type: application/json
+{
+  "schema": {
+    "columns": [
+      {
+        "name": "CodSede",
+        "type": "String"
+      },
+			{
+				"name": "Tanque",
+				"type": "String",
+				"format": { "type": "Int32" }
+			},
+			{
+				"name": "FechaTicket",
+				"type": "Date"
+			},
+			{
+				"name": "Hora",
+				"type": "Int32",
+				"range": { "min": 0, "max": 23 }
+			},
+			{
+				"name": "Litros",
+				"type": "Decimal"
+			},
+			{
+				"name": "LoadDate",
+				"type": "String",
+				"format": { "type": "DateTime", "pattern": "yyyy-MM-dd HH:mm:ss" },
+				"required": true
+			}
+		]
+  },
+  "credentials": {
+    "accountName": "",
+    "tenantId": "",
+    "clientId": "",
+    "clientSecret": ""
+  },
+  "containerName": "",
+  "parquetPath": ""
+}
+###

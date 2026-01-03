@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 18
+VisualStudioVersion = 18.1.11312.151
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParquetValidation", "src\ParquetValidation\ParquetValidation.csproj", "{00DB2891-C71E-9F67-05B9-C7A16C3C74BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParquetValidation.ConsoleTest", "tests\ParquetValidation.ConsoleTest\ParquetValidation.ConsoleTest.csproj", "{5D54CF8D-9B97-A41A-1DF5-6E89B0E425B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParquetValidation.Tests", "tests\ParquetValidation.Tests\ParquetValidation.Tests.csproj", "{3ED19882-4D8E-B442-CDD9-C1DA710FD7CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParquetValidation.WebApiTest", "tests\ParquetValidation.WebApiTest\ParquetValidation.WebApiTest.csproj", "{B45A23FA-3904-C123-017B-48859BBADA04}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{00DB2891-C71E-9F67-05B9-C7A16C3C74BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00DB2891-C71E-9F67-05B9-C7A16C3C74BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00DB2891-C71E-9F67-05B9-C7A16C3C74BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00DB2891-C71E-9F67-05B9-C7A16C3C74BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D54CF8D-9B97-A41A-1DF5-6E89B0E425B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D54CF8D-9B97-A41A-1DF5-6E89B0E425B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D54CF8D-9B97-A41A-1DF5-6E89B0E425B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D54CF8D-9B97-A41A-1DF5-6E89B0E425B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3ED19882-4D8E-B442-CDD9-C1DA710FD7CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3ED19882-4D8E-B442-CDD9-C1DA710FD7CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3ED19882-4D8E-B442-CDD9-C1DA710FD7CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3ED19882-4D8E-B442-CDD9-C1DA710FD7CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B45A23FA-3904-C123-017B-48859BBADA04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B45A23FA-3904-C123-017B-48859BBADA04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B45A23FA-3904-C123-017B-48859BBADA04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B45A23FA-3904-C123-017B-48859BBADA04}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BF76D4A4-2496-4113-944C-844C431E50F8}
+	EndGlobalSection
+EndGlobal
